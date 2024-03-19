@@ -21,4 +21,3 @@ cogemos:
 fusiona los repos local y remoto
 cambia nombre de rama "master"(local) a main
 y hacemos un push
-
