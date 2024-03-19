@@ -1,3 +1,5 @@
+<<<<< Reto 2 >>>>>
+
 Repositorio local
 
 - git init repor_R2 - crea repo en local
@@ -20,3 +22,25 @@ cogemos:
 
 fusiona los repos local y remoto
 cambia nombre de rama "master"(local) a main
+
+
+<<<<< Reto 3 >>>>>
+- Añade el archivo .md creado anteriormente de nuevo al “stage”.
+
+
+-- NOTAS --
+
+git reset --soft HEAD~  >>> te lleva al apartado en el que tienes que introducir de nuevo git commit -m "comentario"
+git reset --soft HEAD~  >>> e lleva al apartado en el que tienes que introducir git add .
+
+
+<<<<< Reto 4 >>>>>
+.gitignore este archivo lo que hace es indicar el tipo de documentos o archivos a ignorar.
+como por ejemplo librerias que pesan demasiado.
+
+Y lo quer habría que hacer sería git pull - git init (para proyectos compartidos) en los que los compañeros hayan instalado una librería.
+
+*.tipoArchivo ejemplo:
+ - *.txt
+ - *.png
+
